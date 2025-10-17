@@ -2,6 +2,8 @@
 import UploadForm from "../components/UploadForm";
 import Link from "next/link";
 
+export const runtime = 'edge';
+
 export default function UploadPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:to-slate-900">
