@@ -68,6 +68,7 @@ const UploadForm = () => {
         title: title,
         author: author,
         imageUrl: downloadURL,
+        type: 2,
         voters: [],
         voteCount: 0,
         createdAt: serverTimestamp() // Tambahkan timestamp
